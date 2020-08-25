@@ -3,11 +3,11 @@ $(function(){
      $(this).click(function () {
        var img_name = $(this).find("a");
        var img_src = $(img_name).attr("phref");
-       var img_title = $(img_name).attr("title");
+      //  var img_title = $(img_name).attr("title");
        var img_size = $(img_name).attr("data");
        $(".pop").show();
        $(".pop img").attr("src", img_src);
-       $(".pop .txt").text( img_title);
+      //  $(".pop .txt").text( img_title);
        $(".pop img").width(img_size);
      });
 
