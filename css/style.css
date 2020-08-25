@@ -93,7 +93,7 @@
 #section2 .skill{
     clear: both;
     padding-top: 100px;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 #section2 .skill h2{
     font-size: 2rem;
@@ -280,7 +280,7 @@
 
 #section3 .starskin_right img{
     width:100%;
-    margin-bottom: 280px;
+    margin-bottom: 350px;
 }
 #section3 .starskin_right img:last-child{
     margin-bottom: 0;
