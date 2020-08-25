@@ -362,16 +362,16 @@
 #section4 .graphic_box{
     margin-top: 70px;
 }
-#section4 .graphic_box div{
-    float: left;
-    width:calc(100% / 3)
-}
+
 #section4 .graphic_box div img{
     width:100%;
 }
+/*#section4 .graphic_box > div 와 같음*/
 #section4 .box{
     position: relative;
     overflow: hidden;
+    float: left;
+    width:calc(100% / 3);
 }
 #section4 .box .box_hover{
     position: absolute;
