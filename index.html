@@ -12,7 +12,24 @@
 
     <script>
         $(function(){
-            $('.graphic_box a').each(function(){
+         $(".box").each(function () {
+          $(this).click(function () {
+            var img_name = $(this).find("a");
+            var img_src = $(img_name).attr("phref");
+            var img_title = $(img_name).attr("title");
+            var img_size = $(img_name).attr("data");
+            $(".pop").show();
+            $(".pop img").attr("src", img_src);
+            $(".pop .txt").text( img_title);
+            $(".pop img").width(img_size);
+          });
+
+          $('.close, .pop').click(function(){
+            $(".pop").hide();
+            })
+        });
+
+         /*   $('.graphic_box a').each(function(){
            $('.pop').hide();
            $(this).click(function(){
              var ahref = $(this).attr('href');
@@ -28,7 +45,9 @@
 
             
            })
-       })
+       })*/
+
+
         });
     </script>
 </head>
@@ -233,7 +252,7 @@
                 <h2>GRAPHIC</h2>
 
                 <div class="graphic_box">
-                    <div class="box1 box"><a href="#pop1">
+                    <div class="box1 box"><a phref="images/gr_maison.jpg"" title="메종키츠네 BX디자인">
                         <img src="images/gr_maison.jpg" alt="메종키츠네 BX디자인">
 
                         <div class="box_hover">
@@ -283,7 +302,7 @@
                     </a></div>
 
 
-                    <div class="box"><a href="#">
+                    <div class="box"><a phref="images/gr_dokdo.jpg" title="독도의 날 카드뉴스" data="800">
                         <img src="images/gr_dokdo.jpg" alt="독도의 날 카드뉴스">
 
                         <div class="box_hover">
@@ -293,7 +312,7 @@
                     </a></div>
 
 
-                    <div class="box"><a href="#">
+                    <div class="box"><a phref="images/gr_dokdo.jpg">
                         <img src="images/gr_hera.jpg" alt="헤라 배너">
 
                         <div class="box_hover">
@@ -325,10 +344,13 @@
 
 
                 <div id="pop1" class="pop">
+                 <p class="close">닫기<span></span><span></span></p>
+                  <div class="outline">
+                    <p class="txt"></p>
                     <img src="images/gr_maison2.jpg" alt="메종키츠네 bx디자인">
-                    <p class="close">닫기</p>
+                  </div>
                 </div>
-                <div id="pop2" class="pop"><p class="close">닫기</p></div>
+
             </div>
         </section>    
     </div>
