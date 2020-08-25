@@ -197,8 +197,6 @@
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
-}
-#section3 .btn a{
     color:#fff;
     font-size:1.2rem;
     line-height: 40px;
@@ -351,6 +349,7 @@
 #section4{
     clear: both;
     padding-top:200px;
+    position: relative;
 }
 #section4 h2{
     font-size: 3rem;
@@ -373,7 +372,6 @@
 #section4 .box{
     position: relative;
     overflow: hidden;
-
 }
 #section4 .box .box_hover{
     position: absolute;
@@ -384,7 +382,7 @@
     height:100%;
     text-align: center;
     transition: 0.5s;
-    padding:170px 0;
+    padding:40% 0;
 }
 #section4 .box:hover .box_hover{
     top:0;
@@ -399,6 +397,31 @@
 #section4 .box .box_hover p{
     color:#fff;
     font-size: 1.2rem;
+}
+
+.pop{
+    width:60%;
+    height:800px;
+    background-color: #eee;
+    position: absolute;
+    top:500px;
+    left: 19%;
+    padding:20px;
+    overflow:scroll;
+}
+.pop img{
+    width:100%;
+}
+.close {
+    display: block;
+    width:50px;
+    border: none;
+    border-radius: 6px;
+    background: #cbaad6;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    
 }
 
 
