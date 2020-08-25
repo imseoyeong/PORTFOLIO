@@ -412,11 +412,10 @@
     top:0;
     left: 0%;
     padding:0px;
-    overflow:scroll;
     background-color:rgba(0,0,0,0.5);
     display:none
 }
-.pop .outline{width:80%;margin:0 auto;background-color:#fff;text-align: center;height:100%;}
+.pop .outline{width:80%;margin:0 auto;background-color:#fff;text-align: center;height:100%; overflow: scroll;}
 .pop img{
     
 }
@@ -443,7 +442,6 @@
     text-indent:-999999px
     
 }
-
 
 
 
