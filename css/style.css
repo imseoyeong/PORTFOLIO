@@ -236,6 +236,9 @@
     padding-right:50px;
     margin-top:10px;
 }
+#section3 .sunkist_right .btn{
+    margin-left: 100px;
+}
 #section3 .sunkist_right p{
     margin-left:100px;
 }
@@ -260,6 +263,9 @@
     margin-left:150px;
     padding-top:30px;
 }
+#section3 .starskin_left .btn{
+    margin-left: 10px;
+}
 #section3 .starskin_left img{
     width:100%;
     margin-top:110px;
@@ -271,6 +277,7 @@
     width:35%;
     float:right;
 }
+
 #section3 .starskin_right img{
     width:100%;
     margin-bottom: 280px;
@@ -309,6 +316,9 @@
     float: left;
     padding:210px 0;
 }
+#section3 .ezdance_left .btn{
+    margin-left: 135px;
+}
 #section3 .ezdance_left p{
     margin-left: 140px;
 }
@@ -326,6 +336,9 @@
 #section3 .hm_left{
     float: left;
     width:50%;
+}
+#section3 .hm_left .btn{
+    margin-left: 300px;
 }
 #section3 .hm_left p{
     margin-left: 300px;
@@ -375,7 +388,6 @@
 }
 #section4 .box .box_hover{
     position: absolute;
-
     left:0;
     background-color: rgb(0, 0, 0, 0.75);
     width:100%;
@@ -383,11 +395,15 @@
     text-align: center;
     padding:40% 0;
 }
-#section4 .box:nth-child(2n-1) .box_hover {top:100%;transition: 0.5s 0s;}
+#section4 .box:nth-child(2n-1) .box_hover {
+    top:100%;transition: 0.5s 0s;
+}
 #section4 .box:nth-child(2n-1) :hover .box_hover{
     top:0;transition: 0.5s 0.3s;
 }
-#section4 .box:nth-child(2n) .box_hover {top:-100%;transition: 0.5s 0s;}
+#section4 .box:nth-child(2n) .box_hover {
+    top:-100%;transition: 0.5s 0s;
+}
 #section4 .box:nth-child(2n) :hover .box_hover{
     top:0;transition: 0.5s 0.3s;
 }
@@ -421,9 +437,13 @@
     height:100%; 
     overflow: scroll;
 }
-.close span{display:block;
-           height:1px; width:50px;background-color:#fff;
-           position:absolute;}
+.close span{
+    display:block;
+    height:1px;
+    width:50px;
+    background-color:#fff;
+    position:absolute;
+}
 .close span:nth-child(1){
     transform: rotate(45deg);
     top:0;left:0
