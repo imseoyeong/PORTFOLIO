@@ -1,14 +1,17 @@
 $(function(){
+  //그래픽부분 팝업창 작동
     $(".box").each(function () {
      $(this).click(function () {
        var img_name = $(this).find("a");
        var img_src = $(img_name).attr("phref");
       //  var img_title = $(img_name).attr("title");
        var img_size = $(img_name).attr("data");
+       var img_padding = $(img_name).attr("padding");
        $(".pop").show();
        $(".pop img").attr("src", img_src);
       //  $(".pop .txt").text( img_title);
        $(".pop img").width(img_size);
+       $(".pop img").css({'margin-top':img_padding});
      });
 
      $('.close, .pop').click(function(){
@@ -17,23 +20,9 @@ $(function(){
        })
    });
 
-    /*   $('.graphic_box a').each(function(){
-      $('.pop').hide();
-      $(this).click(function(){
-        var ahref = $(this).attr('href');
-        $('.pop').hide();
-        $(ahref).fadeIn();
-        $('.graphic_box a').css({background:'none'});
-        $(this).css({'background-color':'orange'});
+    
 
-        $('.close').click(function(){
-          $(ahref).fadeOut(500);
-            })
-
-
-       
-      })
-  })*/
+   //스킬 스크롤 내렸을 때 작동하는 거
   $(window).scroll(function(){ //윈도우를 스크롤 했을 때
     //alert($(document).scrollTop());
       if($(document).scrollTop()>= 700){
