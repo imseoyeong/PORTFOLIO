@@ -34,6 +34,13 @@ $(function(){
        
       })
   })*/
-
+  $(window).scroll(function(){ //윈도우를 스크롤 했을 때
+    //alert($(document).scrollTop());
+      if($(document).scrollTop()>= 700){
+       $('#section2 .none div').addClass('run')
+      } //css 배경에 애니메이트으로 처리하고 싶으면 jquery-ui.min.js파일을 복사해서 링크 걸 것
+    else {
+      $('#section2 .none div').removeClass('run')}
+    })
 
    });

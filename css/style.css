@@ -80,12 +80,12 @@
 #section2 .sec2_right{
     float: right;
     padding-top: 380px;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 #section2 .sec2_right p{
     font-size: 1.2rem;
     font-weight: 900;
-    color:rgb(213, 202, 231);
+    color:rgb(163, 145, 194);
     margin-bottom: 15px;
 }
 
@@ -144,13 +144,14 @@
     background:linear-gradient(to right, #f8d5c5, #c997db);
     height: 5px;
     margin-bottom: 0;
+    width:0;
 }
-#section2 .skill_box #result1 div{animation: race-none1 6s ease 1 both;}
-#section2 .skill_box #result2 div{animation: race-none2 6s ease 1 both;}
-#section2 .skill_box #result3 div{animation: race-none3 6s ease 1 both;}
-#section2 .skill_box #result4 div{animation: race-none4 6s ease 1 both;}
-#section2 .skill_box #result5 div{animation: race-none5 6s ease 1 both;}
-#section2 .skill_box #result6 div{animation: race-none6 6s ease 1 both;}
+#section2 .skill_box #result1 div.run{animation: race-none1 6s ease 1 both;}
+#section2 .skill_box #result2 div.run{animation: race-none2 6s ease 1 both;}
+#section2 .skill_box #result3 div.run{animation: race-none3 6s ease 1 both;}
+#section2 .skill_box #result4 div.run{animation: race-none4 6s ease 1 both;}
+#section2 .skill_box #result5 div.run{animation: race-none5 6s ease 1 both;}
+#section2 .skill_box #result6 div.run{animation: race-none6 6s ease 1 both;}
 
 @keyframes race-none1{
     0% {width: 0;}
@@ -215,6 +216,11 @@
     font-size:1.2rem;
     line-height: 40px;
     font-weight: 800;
+    transition:0.5s
+}
+#section3 .btn:hover{
+    transform: scale(1.1);
+
 }
 #section3 h2{
     font-size: 3rem;
