@@ -223,8 +223,12 @@
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 8px 8px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
-    background-color:#BF5F8B;
+    background: #cbaad6; /* Old browsers */
+    background: -moz-linear-gradient(top, #cbaad6 0%, #f1cff9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cbaad6 0%,#f1cff9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cbaad6 0%,#f1cff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color:#fff;
+    padding:5px 0;
 }
 #section3 h4{
     font-size: 3.6rem;
@@ -383,8 +387,12 @@
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 8px 8px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
-    background-color:#BF5F8B;
+    background: #cbaad6; /* Old browsers */
+    background: -moz-linear-gradient(top, #cbaad6 0%, #f1cff9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cbaad6 0%,#f1cff9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cbaad6 0%,#f1cff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color:#fff;
+    padding:5px 0;
 }
 #section4 .graphic_box{
     margin-top: 70px;
