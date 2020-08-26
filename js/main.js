@@ -13,6 +13,7 @@ $(function(){
 
      $('.close, .pop').click(function(){
        $(".pop").hide();
+       $(".pop img").attr("src", '');
        })
    });
 
