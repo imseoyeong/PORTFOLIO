@@ -221,8 +221,10 @@
     color:#333;
     font-weight: 900;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
+    background-color:#BF5F8B;
+    color:#fff;
 }
 #section3 h4{
     font-size: 3.6rem;
@@ -379,8 +381,10 @@
     color:#333;
     font-weight: 900;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 5px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
+    background-color:#BF5F8B;
+    color:#fff;
 }
 #section4 .graphic_box{
     margin-top: 70px;
