@@ -385,7 +385,13 @@
     clear: both;
     padding-top:200px;
     position: relative;
+    margin-bottom: 100px;
 }
+/* #section4::after{
+    content: '';
+    clear: both;
+    display: block;
+} */
 #section4 h2{
     font-size: 3rem;
     color:#333;
@@ -495,5 +501,14 @@
 
 
 
-#footer{}
+#footer{
+    text-align: center;
+    clear: both;
+}
+#footer p{
+    font-size: 0.8rem;
+    color:#ccc;
+    padding-top:80px;
+    padding-bottom: 15px;
+}
 
