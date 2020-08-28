@@ -241,7 +241,7 @@
 #section3 hr{
     border:solid 1px #eee;
     width:100%;
-     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.15);
 }
 #section3 h4{
     font-size: 3.6rem;
@@ -417,7 +417,7 @@
 #section4 hr{
     border:solid 1px #eee;
     width:100%;
-     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.15);
 }
 #section4 .graphic_box{
     margin-top: 70px;
